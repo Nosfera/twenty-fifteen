@@ -1,0 +1,84 @@
+/*
+Theme Name:Editor style
+Version:0.1
+*/
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One');
+
+button{
+	font-family: 'Julius Sans One', sans-serif;
+	border: solid 2px red !important;
+	background-color: blue!important; 
+}
+
+/* Color Variables */
+
+#darkBlue{
+	color: #0000E0;
+}
+
+#lighBlue{
+	color: #0068FF;
+}
+
+#gray{
+	color: #A3AFBF;
+}
+
+#brown{
+	color: #BF9649;
+}
+
+
+
+/* Top level DOM styles */
+body{
+	font-family: 'Julius Sans One', sans-serif;
+
+}
+
+
+
+/* CLASS defined for links on editor-style */
+.button{	
+	font-family: 'Julius Sans One', sans-serif;
+	border: solid 2px red !important;
+	background-color:#010101 !important; 
+}
+
+/* to a div */
+.notice{
+	font-family: Times, serif;
+	background-color: pink;
+	color: white;
+}
+
+/* Class given to a "DIV" bild_info in post
+* Actualmente afecta a p
+ */
+.bild_info{
+	z-index: 1;
+	position: relative;
+	font-size: 1em;
+	text-align: center;
+	font-family: 'Julius Sans One', sans-serif;
+	padding: 10px 20px 20px 50px;
+	/*background-color: pink;*/
+	border-radius: 2px;
+	float: right;
+	/* h-shadow v-shadow blur spread color */
+	box-shadow: -8px 8px 12px -12px #727272;
+}
+
+
+/* Class given to any "P" element on editor-style */
+.disclaimer{
+	font-style: italic;
+}
+
+/* Class given to any IMG element on editor-style */
+.full-widht{
+	background-color: white;
+	margin:0;
+	border: 3px solid blue;
+	border-radius: 5px;
+}
